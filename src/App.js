@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import Cloud from "./Cloud/Cloud";
+import Bird from "./Bird/Bird";
+// import Cloud from "./Cloud/Cloud";
 
 const Wrapper = styled.div`
    {
@@ -21,7 +22,7 @@ function App() {
   return (
     <Wrapper>
       <Title className="App-header">Flappy something</Title>
-      <Cloud />
+      <Bird />
     </Wrapper>
   );
 }

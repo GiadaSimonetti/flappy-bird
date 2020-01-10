@@ -1,9 +1,8 @@
 import React from "react";
-import { render } from "react-dom";
-import ReactSVG from "react-svg";
+import birdFrame1 from "../public/images/frame-1i.svg";
 
-function Cloud() {
-  render(<ReactSVG src="svg.svg" />);
+function Bird() {
+  return <img src={birdFrame1} className="birdFrame1" alt="birdFrame1" />;
 }
 
-export default Cloud;
+export default Bird;
