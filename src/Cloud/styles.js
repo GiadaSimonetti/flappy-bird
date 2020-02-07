@@ -3,6 +3,9 @@ import styled from "styled-components";
 
 export const CloudContainer = styled.div`
    {
+    display: flex;
+    // flex-direction: column;
+    justify-content: flex-end;
     padding: 100px 0;
   }
 `;
@@ -21,24 +24,29 @@ export const CloudContainer = styled.div`
 // `;
 export const Cloud3 = styled.img`
    {
-    height: 300px;
+    top: 10px;
+    position: relative;
+    height: 250px;
     margin: 15px;
   }
 `;
 export const Cloud4 = styled.img`
    {
-    height: 300px;
+    top: 300px;
+    position: relative;
+    height: 150px;
     margin: 15px;
-    left: 200px;
   }
 `;
 
-// const Cloud5 = styled.img`
-//    {
-//     height: 300px;
-//     margin: 15px;
-//   }
-// `;
+export const Cloud1 = styled.img`
+   {
+    top: 500px;
+    position: relative;
+    height: 200px;
+    margin: 15px;
+  }
+`;
 // const Cloud6 = styled.img`
 //    {
 //     height: 300px;
